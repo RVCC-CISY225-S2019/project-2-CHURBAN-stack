@@ -70,6 +70,7 @@ img.logo {
   background-color: #2A1E5C;
   color: white;
   text-align: center;
+  font-size: 1.8rem;
 }
 
 img.my-picture {
@@ -78,7 +79,7 @@ img.my-picture {
   /*max-width: 100%;*/
   width: 8rem;
   height: 8rem;
-  border: 2px solid white;
+  border: 2px solid red;
   border-radius: 50%;
 }
 
@@ -103,14 +104,14 @@ img.my-picture {
 
 .my-name {
   color: white;
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   font-weight: 600;
   text-align: center;
   margin-bottom: 0;
 }
 
 .my-location {
-    color: rgba(255,255,255, 0.8);
+    color: rgba(300, 255, 255, 0.8);
     font-size: 1rem;
     font-weight: 600;
     text-align: center;
@@ -118,7 +119,7 @@ img.my-picture {
 }
 
 .about-me {
-  padding: 2.5em;
+  padding: 2.6em;
 }
 
 .about-content {
