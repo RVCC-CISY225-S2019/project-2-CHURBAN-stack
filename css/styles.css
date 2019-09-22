@@ -1,7 +1,6 @@
 body {
-  font-family:'Fira Sans', sans-serif;;
+  font-family:'Fira Sans', sans-serif ;
   margin: 0;
-
 }
 
 .content {
@@ -29,13 +28,13 @@ img.logo {
 .page-title {
   color: #6B6B6B;
   float: left;
-  font-size: 1.1rem;
+  font-size: 1.6rem;
   line-height: 3rem;
 }
 
 @media screen and (max-width: 24rem) {
   .big-title {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
 }
 
@@ -60,17 +59,8 @@ img.logo {
 .hero {
   padding: 4em;
   max-width: 100%;
-  background-color: #2A1E5C;
+  background-color: #294860;
   color: white;
-}
-
-.footer {
-  padding: 4em;
-  max-width: 100%;
-  background-color: #2A1E5C;
-  color: white;
-  text-align: center;
-  font-size: 1.8rem;
 }
 
 img.my-picture {
@@ -79,21 +69,21 @@ img.my-picture {
   /*max-width: 100%;*/
   width: 8rem;
   height: 8rem;
-  border: 2px solid red;
+  border: 2px solid white;
   border-radius: 50%;
 }
 
 .iama {
   max-width: 100%;
   color: #294860;
-  font-size: 1.1em;
+  font-size: 1.5em;
   font-style: italic;
 }
 
 .my-info {
   max-width: 100%;
   color: #404040;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   line-height: 1.5;
   margin: 0px auto 3em;
 }
@@ -104,22 +94,23 @@ img.my-picture {
 
 .my-name {
   color: white;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   font-weight: 600;
   text-align: center;
   margin-bottom: 0;
 }
 
 .my-location {
-    color: rgba(300, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.8);
     font-size: 1rem;
     font-weight: 600;
     text-align: center;
     text-transform: uppercase;
+    padding: 2.5em;
 }
 
 .about-me {
-  padding: 2.6em;
+  padding: 2.5em;
 }
 
 .about-content {
@@ -127,4 +118,11 @@ img.my-picture {
     padding-left: 3rem;
 }
 
- 
+.footer {
+  padding: 4em;
+  max-width: 100%;
+  background-color: #294860;
+  color: white;
+  text-align: center;
+  font-size: 1.6rem;
+}
